@@ -33,9 +33,6 @@ module.exports = (env) => {
                 {
                     test: /\.js$/,
                     loader: "babel-loader",
-                    options: {
-                        presets: ['env']
-                    }
                 },
                 {
                     test: /\.css$/,
